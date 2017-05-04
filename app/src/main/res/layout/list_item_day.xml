@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:layout_marginBottom="2dp">
+
+
+
+    <TextView
+        android:id="@+id/list_item_day_day_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/MyParentTextStyle"
+        android:text="2016"
+        android:textColor="@android:color/black"
+        />
+
+    <TextView
+        android:id="@+id/list_item_day_charges_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/MyParentTextStyle"
+        android:text="2016"
+        android:layout_toLeftOf="@+id/list_item_day_received_text"
+        android:textColor="@android:color/holo_blue_dark"
+        />
+
+
+
+    <TextView
+        android:id="@+id/list_item_day_received_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/MyParentTextStyle"
+        android:text="2016"
+        android:layout_toLeftOf="@+id/list_item_day_sent_text"
+        android:textColor="@color/greenColor"
+        />
+
+
+
+    <TextView
+        android:id="@+id/list_item_day_sent_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/MyParentTextStyle"
+        android:text="2016"
+        android:layout_alignParentRight="true"
+        android:textColor="@android:color/holo_red_dark"
+        />
+
+</RelativeLayout>

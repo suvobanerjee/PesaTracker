@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">Pesa Tracker</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email completions."</string>
+    <string name="phone_string">Country Code + Phone number </string>
+    <string name="pin_string">Pin</string>
+    <string name="register_text">Register</string>
+    <string name="pref_name">com.exco.suvo.register</string>
+    <string name="register_flag">registerFlag</string>
+    <string name="register_duty">reg</string>
+    <string name="login_constant">log</string>
+    <string name="resp_constant_success">success</string>
+    <string name="resp_constant_resend_pin_success">SMS SENT</string>
+    <string name="resp_constant_resend_pin_user_not_exist">User does not exist. Please register the user first and try agin.</string>
+    <string name="resp_constant_program_login">login</string>
+    <string name="resp_constant_program_register">registration</string>
+    <string name="resp_constant_program_auth">auth</string>
+    <string name="resp_constant_program_retrivepin">pass</string>
+    <string name="resp_constant_retrivepin">pass</string>
+    <string name="resp_constant_auth_otp">lol</string>
+    <string name="login_failure_msg">Login Failed. Please Try again.</string>
+    <string name="retrive_pin_success_msg">Your pin has been sent to your registered number.</string>
+    <string name="reg_failure_msg_user_exists_string">User is already registered.</string>
+    <string name="reg_failure_msg_invalid_param">Wrong informataion passed. Please check the number.</string>
+    <string name="login_failure_wrong_pin_msg">Invalid pin. Please try again with correct pin.</string>
+    <string name="universal_failure_msg">Oops! Something went wrong. Please try again after sometime</string>
+    <string name="forgot_pin_link">Retrieve pin.</string>
+
+    <string name="sender_otp">+61419410954</string>
+
+    <string name="otp_not_recived_msg">OTP was not received. Please try again for OTP.</string>
+    <string name="resend_otp_text">Resend OTP</string>
+    <string name="sender_airtel_money">AirtelMoney</string>
+    <string name="sender_mtn_money">MTNMobMoney</string>
+    <string name="sender_africell_money">AfriMoney</string>
+    <string name="progressbar_text_setup">Setting app.</string>
+    <string name="charge_text">Charges</string>
+    <string name="sent_text">Sent</string>
+    <string name="received_text">Received</string>
+    <string name="details_activity_title">Monthly Details</string>
+
+    <string name="menu_action_refresh">Refresh</string>
+    <string name="menu_action_search">Search</string>
+    <string name="menu_action_summary">Summary</string>
+    <string name="menu_action_home">Home</string>
+
+</resources>

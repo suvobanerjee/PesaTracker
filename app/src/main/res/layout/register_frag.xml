@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <!-- Phone Label -->
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/registerFrag_TextInputLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp">
+        <EditText
+            android:id="@+id/registerFrag_phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="phone"
+            android:hint="@string/phone_string"
+            />
+    </android.support.design.widget.TextInputLayout>
+
+    <!-- Pin Label -->
+    <!--<android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp">
+        <EditText
+            android:id="@+id/registerFrag_pin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberPassword"
+            android:hint="@string/pin_string"/>
+    </android.support.design.widget.TextInputLayout>-->
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/registerFrag_registerBtn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="24dp"
+        android:padding="12dp"
+        android:text="@string/register_text"
+        android:textColor="@android:color/black"
+        android:background="@color/colorAccent"/>
+
+<!--
+    <TextView
+        android:id="@+id/registerFrag_resendOtpLink"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/resend_otp_text"
+        android:padding="12dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:visibility="invisible"/>
+-->
+
+
+</LinearLayout>
