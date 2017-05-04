@@ -87,4 +87,10 @@ public class DetailsActivity extends AppCompatActivity {
         });
 
     }
+
+
+    public void add()
+    {
+        int a=2+6;
+    }
 }
